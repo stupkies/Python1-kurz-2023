@@ -2,7 +2,7 @@ jmeno=input("Zadej svoje jméno")
 # proměnná jméno
 email=jmeno + "@czechitas.cz"
 # vytvoř email adresu z jména a domény czechitas.cz
-print (jmeno + email)
+print (email)
 
 #nepovinný bonus
 jmeno_a_prijmeni= input ("Zadej jmeno a přijmení")
@@ -10,8 +10,14 @@ print (jmeno_a_prijmeni.upper())
 # všechny písmena velké
 print (jmeno_a_prijmeni.lower())
 #všechny písmena malé
+print (jmeno_a_prijmeni[:1].lower() + jmeno_a_prijmeni[1].upper() + jmeno_a_prijmeni[2] + jmeno_a_prijmeni[3] + jmeno_a_prijmeni[4]+jmeno_a_prijmeni[5]+jmeno_a_prijmeni[6].lower() +jmeno_a_prijmeni[7].upper()+jmeno_a_prijmeni[8:])
+#všechny malé a druhé velké
 print (jmeno_a_prijmeni.title())
 #první velké zbytek malé
+
+
+
+
 
 
 
