@@ -21,12 +21,14 @@ else:
 pozadovany_pocet=sklad[kod_soucastky]
 if pozadovany_pocet < mnozstvi_na_skladu:
      print(f"Máme jenom {pozadovany_pocet} ks {kod_soucastky}")
-     #pokud se sníží požadovaný počet ks na 0 (protože se prodal zákazníkovi) vymazat se skladu
+     #pokud se sníží požadovaný počet ks na 0 (protože se prodalo zákazníkovi) vymazat se skladu
      del sklad[kod_soucastky]
 else:
      #součástek je dostatek, sníží se množství na skladu
      print("Součástek máme dostatek")
      sklad.pop(kod_soucastky)
+
+     
 
 
   
